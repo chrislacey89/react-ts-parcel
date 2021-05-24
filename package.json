@@ -1,0 +1,46 @@
+{
+  "name": "parcel-typescript-starter",
+  "version": "1.0.0",
+  "description": "Starter template for working with React, Typescript, and Parcel.",
+  "scripts": {
+    "start": "parcel serve public/index.html --open",
+    "build": "parcel build public/index.html --dist-dir build/"
+  },
+  "keywords": [],
+  "author": "Christopher Lacey",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@parcel/validator-typescript": "*",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "babel-eslint": "^10.1.0",
+    "cssnano": "^5.0.4",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-wesbos": "^2.0.0-beta.5",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "parcel": "^2.0.0-beta.3.1",
+    "postcss": "^8.3.0",
+    "prettier": "^2.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-group-selectors": "^1.0.8",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "typescript": "^4.2.4"
+  }
+}

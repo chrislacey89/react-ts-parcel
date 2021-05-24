@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-idiomatic-order"
+  ],
+  "plugins": ["stylelint-group-selectors", "stylelint-prettier"],
+  "rules": {
+    "plugin/stylelint-group-selectors": true,
+    "prettier/prettier": true
+  }
+}
